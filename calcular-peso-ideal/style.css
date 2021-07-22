@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(81, 119, 116, 0.247);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 300px;
+}
+input[type=radio] {
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+input[type=text] {
+    border-radius: 4px;
+    border: none;
+    padding: 14px 28px;
+    text-decoration: none;
+    margin: 4px 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input[type=button]{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
