@@ -13,7 +13,6 @@ var inNome = document.getElementById("inNome");
             var masculino = rbMasculino.checked;
             var feminino = rbFeminino.checked;
             var altura = Number(inAltura.value);
-            var calcular = 0;
 
             if (nome == ""  || (masculino == false && feminino == false )) {
                 alert("Por favor, informe o nome e/ou selecione o gênero!")
