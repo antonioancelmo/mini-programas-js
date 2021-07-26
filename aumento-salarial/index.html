@@ -8,22 +8,44 @@
     <title>Aumento Salarial</title>
 </head>
 <body>
-    <img src="image.jpg" alt="">
-    <h1>Cálcule seu aumento salarial</h1>
-    <p> Informe seu salário atual: <input type="text" id="inSalario"></p>
+    <main class="container">
+        <img src="image.jpg" alt="">
+        <h1>Cálcule seu aumento salarial</h1>
+        <p> Informe seu salário atual: <input type="text" id="inSalario"></p>
 
-    <p>Qual sua situação na empresa: <br>
-        <input type="radio" name="situacao" id="brEstagiario">Estagiário (5%) <br>
-        <input type="radio" name="situacao" id="brTemporario">Contrato temporario (8%) <br>
-        <input type="radio" name="situacao" id="brEfetivo">Efetivo (15%)
-    </p>
+        <p>Qual sua situação na empresa: <br>
+            <input type="radio" name="situacao" id="brEstagiario">Estagiário (5%) <br>
+            <input type="radio" name="situacao" id="brTemporario">Contrato temporario (8%) <br>
+            <input type="radio" name="situacao" id="brEfetivo">Efetivo (15%)
+        </p>
 
     <input type="button" value="Calcular Novo Salário" id="btCalcular">
     <input type="button" value="Limpar Campos" id="btLimpar">
 
     <h2 id="outResposta"></h2>
+</main>
     <script src="base.js">
     </script>
-    
+    <footer>
+        <nav class="SocialMedia">
+          <ul>
+              <li class="SocialMedia_item">
+                  <a href="https://www.instagram.com/ancelmocerqueira/" target="_blank">
+                    <img src="../views/image/instagram.svg" alt="instagram" />
+                  </a>
+                </li>
+            <li class="SocialMedia_item">
+              <a href="https://github.com/antonioancelmo" target="_blank">
+                <img src="../views/image/github.svg" alt="github" />
+              </a>
+            </li>
+            <li class="SocialMedia_item">
+              <a href="https://www.linkedin.com/in/ancelmocerqueira/" target="_blank">
+                <img src="../views/image/linkedin.svg" alt="linkedin" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
 </body>
 </html>

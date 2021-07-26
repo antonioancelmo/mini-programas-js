@@ -8,26 +8,48 @@
     <title>Peso ideal</title>
 </head>
 <body>
-    <img src="image.jpg" alt="">
+    <main>
+        <img src="image.jpg" alt="">
 
-    <h1>Cálculo do Peso Ideal</h1>
+        <h1>Cálculo do Peso Ideal</h1>
     
-    <p> Nome: <input type="text" id="inNome"></p>
-    
-    <p> Gênero:
-        <input type="radio" name="sexo" id="rbFeminino"> Feminino
-        <input type="radio" name="sexo" id="rbMasculino"> Masculino
-    </p>
+        <p> Nome: <input type="text" id="inNome"></p>
 
-    <p>Altura: <input type="text" id="inAltura"> </p>
-    
-    <p>
-        <input type="button" value="Calcular Peso Ideal"  id="btCalcular">
-        <input type="button" value="Limpar Campos" id  ="btLimpar">
-    </p>
-    <h2 id="outResposta"></h2>
+        <p>Altura: <input type="text" id="inAltura"> </p>
 
-    <script src= "base.js">
-    </script>
+        <p> Gênero:
+            <input type="radio" name="sexo" id="rbFeminino"> Feminino
+            <input type="radio" name="sexo" id="rbMasculino"> Masculino
+        </p>
+    
+        <p>
+            <input type="button" value="Calcular Peso Ideal"  id="btCalcular">
+            <input type="button" value="Limpar Campos" id  ="btLimpar">
+        </p>
+        <h2 id="outResposta"></h2>
+    </main>
+    <script src= "base.js">  </script>
+
+    <footer>
+        <nav class="SocialMedia">
+          <ul>
+              <li class="SocialMedia_item">
+                  <a href="https://www.instagram.com/ancelmocerqueira/" target="_blank">
+                    <img src="../views/image/instagram.svg" alt="instagram" />
+                  </a>
+                </li>
+            <li class="SocialMedia_item">
+              <a href="https://github.com/antonioancelmo" target="_blank">
+                <img src="../views/image/github.svg" alt="github" />
+              </a>
+            </li>
+            <li class="SocialMedia_item">
+              <a href="https://www.linkedin.com/in/ancelmocerqueira/" target="_blank">
+                <img src="../views/image/linkedin.svg" alt="linkedin" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
 </body>
 </html>

@@ -1,6 +1,7 @@
 var inA = document.getElementById("inA");
 var inB = document.getElementById("inB");
 var inC = document.getElementById("inC");
+var btLimpar = document.getElementById("btLimpar")
 var btVerificar = document.getElementById("btVerificar");
 var outResultado = document.getElementById("outResultado");
 
@@ -33,3 +34,12 @@ function verficarLados () {
     }
     
 }
+btLimpar.addEventListener("click", limparCampos)
+        
+        function limparCampos () {
+            inA.value = "";
+            inB.value = "";
+            inC.value = "";
+            outResultado.textContent = "";
+            inA.focus();
+        }

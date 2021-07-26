@@ -32,7 +32,7 @@ var inNome = document.getElementById("inNome");
                 var peso = 22 * Math.pow(altura, 2)
             }
 
-            outResposta.textContent = nome + ": seu peso ideal é " + peso.toFixed(2) + " kg";
+            outResposta.textContent = "Olá, " + nome + "! O peso ideal seria: " + peso.toFixed(2) + " kg." + " Mas lembre-se, o importante é você está saudável e feliz com seu corpo.";
         }
 
         btLimpar.addEventListener("click", limparCampos)
