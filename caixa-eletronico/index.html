@@ -9,10 +9,13 @@
 </head>
 <body>
     <main>
-        <img src="image.jpg" alt="">
-        <h1>CAIXA ELETRÔNICO</h1>
+      <picture>
+        <source media="(max-width: 600px)" srcset="images/image-200.jpg" type="image/jpg">
+        <img src="images/image-300.jpg" alt="">
+      </picture>
+        <h1>Caixa Eletrônico</h1>
         <hr>
-        <h2> Cédulas disponíveis: 200, 50, 20 e 5.</h2>
+        <h2> Cédulas disponíveis:<br> 200, 50, 20 e 5.</h2>
         <p> Valor do saque R$: 
             <input type="text" id="inSaque">
         </p>

@@ -1,22 +1,24 @@
 body {
-    background-color: rgb(248, 227, 183);
+    background-image: linear-gradient(-45deg, #DB7F57, #F26D55, #E85251);
+    background-attachment: fixed;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
 }
 main {
-    background-color: rgba(238, 237, 236, 0.308);
-    margin: 22px auto;
-    width: 1080px;;
-    box-shadow: 3px 3px 16px 0px rgb(179, 179, 179);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.397);
+    box-shadow: 3px 3px 10px 0px #e8515175;
+    width: 400px;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
 }
 
 img {
     height: auto; 
     width: auto; 
-    max-width: 400px; 
-    max-height: 300px;
 }
+
 input[type=text] {
     border-radius: 4px;
     border: none;
