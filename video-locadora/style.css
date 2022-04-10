@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(117, 128, 62);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+h1, h2, p {
+    color: white;
+}
+main {
+    background-color: rgba(255, 253, 253, 0.11);
+    margin: 22px auto;
+    width: 1080px;;
+
+    padding: 15px;
+}
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 320px; 
+    max-height: 300px;
+}
+input[type=text] {
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+input[type=button]{
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(236, 226, 165, 0.2), 0 6px 20px 0 rgba(201, 10, 10, 0.19);
+}
+.SocialMedia{
+    text-align: center;
+}
+.SocialMedia_item{
+    display: inline-block;
+    margin: 0 6px;
+}
+.SocialMedia_item img{
+    width: 100%;
+    max-width: 22px;
+}
+@media screen and (min-width: 768px) {
+    main .row {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
